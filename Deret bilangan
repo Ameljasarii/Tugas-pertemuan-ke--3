@@ -1,0 +1,41 @@
+## Deret bilangan
+# include <iostream>
+Using namespace std;
+
+
+Int main (int argc, char**argv) {
+          Int n,f1=0, f2=1,berikutnya =0;
+
+          Cout<<"masukkan deret bilangan:";
+              Cin>>n;
+              Cout<<endl;
+
+          Cout<<"deret bilangan:";
+          For (int  i=1; i<=n; ++i)
+
+          {
+               
+                    if(i==1)
+                    {
+                            Cout<<""<<f1<<"";
+                            Continue;
+                    }
+                    if (i==2)
+                    {
+                    Cout<<""<<f2<<"";
+                            Continue;
+                    }
+                    Selanjutnya = f1+f2;
+                    f1=f2;
+                    f2=selanjutnya;
+                    Cout<<berikutnya<<"";
+       
+
+           }
+           Return 0;
+      
+       }
+
+ 
+
+
